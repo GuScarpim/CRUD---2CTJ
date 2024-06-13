@@ -1,0 +1,17 @@
+{
+  "name": "backendsqlite",
+  "version": "1.0.0",
+  "description": "meu-projeto-crud/\r ├── app/                   # Diretório principal da aplicação\r │   ├── controllers/      # Controladores para rotas e lógica de negócio\r │   │   ├── produto.js    # Controlador de produtos\r │   │   └── usuario.js     # Controlador de usuários (e outros se necessário)\r │   ├── models/           # Modelos para interação com o banco de dados\r │   │   ├── produto.js    # Modelo de produto\r │   │   └── usuario.js     # Modelo de usuário (e outros se necessário)\r │   ├── routes/           # Rotas da API REST\r │   │   ├── produto.js    # Rotas de produtos\r │   │   └── usuario.js     # Rotas de usuários (e outros se necessário)\r │   │── index.js          # Ponto de entrada da aplicação\r │   ├── config/                # Configurações da aplicação\r │   │   └── database.js        # Configuração da conexão com o MongoDB\r │   ├── package.json          # Arquivo de dependências do projeto\r │   └── README.md              # Arquivo com instruções do projeto\r └───────────────────────",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
